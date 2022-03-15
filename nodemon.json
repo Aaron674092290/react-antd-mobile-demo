@@ -1,0 +1,18 @@
+{
+  "verbose": true,
+  "watch": ["server"],
+  "ignore": ["./src/views/"],
+  "delay": 2000,
+  "execMap": {
+    "ts": "ts-node --files",
+    "tsx": "ts-node --project tsconfig-server.json --files"
+  },
+  "env": {
+    "APP_ENV": "development"
+  },
+  "ext": "tsx ts json",
+  "events": {
+    "restart": "kill-port 8008",
+    "crash": "kill-port 8008"
+  }
+}

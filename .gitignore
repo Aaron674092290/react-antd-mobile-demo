@@ -1,0 +1,12 @@
+.vscode/
+dist
+node_modules
+.idea
+views
+.DS_Store
+yarn-error.log
+views
+.DS_Store
+output
+output_resource
+yarn-error.log
